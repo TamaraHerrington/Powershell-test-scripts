@@ -1,6 +1,12 @@
-function TestFunct($c) {
-    Write-Output "this is a test $c"
+function TestFunct {
+    param(
+        $animal,
+        $day
+    )
+    
+    #`n for new line in string
+    Write-Output "Animal: $animal `nDay: $day"
 }
 
 #pass in property of funct with -
-TestFunct -c $colour2
+TestFunct -animal "Zebra" -day "Monday"
