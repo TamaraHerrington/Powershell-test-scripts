@@ -12,3 +12,13 @@ if ($testvar -eq $true){
     Write-Output "Curried Goat and Dumplings"
 }
 
+############int will round up decimal points to nearest whole
+$int = 1.5
+
+[Int32]$int
+
+###########floats
+
+############stings
+
+###########objects
